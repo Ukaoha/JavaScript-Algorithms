@@ -44,9 +44,7 @@ function getNumofmatches(group , team) {
 getNumofmatches(8 , 4) ;
 
 // Another Algorithm
-function getNumOfMathches() {
-let group = 8 ;
-let teams = 4 ;
+function getNumOfMathches(group,teams) {
 let totalteaams = group * teams ;
 let sumOfteamMatch = (teams*(4-1)/2)  //using this formular (n(a-1) /2)
 
@@ -58,5 +56,7 @@ let totalGroupGames =  sumOfteamMatch * group;
 let totalMatches = totalGroupGames + knockoutStage
 
 }
+getNumOfMathches(8,4);
+
 
 
